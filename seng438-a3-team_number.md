@@ -66,7 +66,10 @@ We used EclEmma as our coverage tool for this lab. The first pro is that it was 
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+An advantage of using requirements-based tests is that you can write tests for every possible input. It is also much more well-defined which helps make testing easier. The downside of this is that accounting for every possible input is impossible and could mean for an unaccounted input. It is also considered too brief where it is possible to miss important elements of the software design.
+
+The advantage of using coverage-based tests is that there is a quantifiable way to determine unaccounted tests through statement, branch, and condition coverages. It can also help find key areas where parts of the program are not tested for. A disadvantage would be that there are coverages that could be impossible to cover such as statement coverages. The coverages are also based on the tools used which in our case, the condition coverage was substituted for the method coverage.
+
 
 # 8 A discussion on how the team work/effort was divided and managed
 
